@@ -21,6 +21,7 @@ import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { ReservationModal } from './components/ReservationModal';
 import { FloatingControls } from './components/FloatingControls';
+import { AuraChatbot } from './components/AuraChatbot';
 
 export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -105,6 +106,9 @@ export default function App() {
 
       {/* 17. Floating Controls (Scroll Progress, Floating Reserve, Back to Top) */}
       <FloatingControls onOpenReservation={() => handleOpenReservation()} />
+
+      {/* 18. AURA Luxury Concierge Chatbot (n8n Webhook) */}
+      <AuraChatbot onOpenReservation={() => handleOpenReservation('AI Concierge Inquiry')} />
     </div>
   );
 }
