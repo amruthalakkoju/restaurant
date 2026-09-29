@@ -1,0 +1,6 @@
+{
+  "name": "AURA | Indian Fine Dining",
+  "description": "Where Indian Flavours Meet Modern Elegance. Experience refined Indian cuisine, handcrafted dishes and warm hospitality at AURA Indian Fine Dining in Visakhapatnam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
